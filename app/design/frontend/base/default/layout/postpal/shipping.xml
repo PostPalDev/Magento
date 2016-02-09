@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <checkout_onepage_index>
+        <reference name="head">
+            <action method="addCss"><stylesheet>postpal/css/postpal.css</stylesheet></action>
+        </reference>
+        <reference name="content">
+            <block type="page/html_head" name="extra_js" as="extraJs" after="-" template="postpal/extras.phtml"/>
+        </reference>
+    </checkout_onepage_index>
+
+</layout>

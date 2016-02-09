@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>PostPal_Shipping</name>
+    <version>0.1.3</version>
+    <stability>stable</stability>
+    <license uri="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>PostPal shipping extension</summary>
+    <description>This extension adds PostPal on-demand courier service to your shopping cart.</description>
+    <notes>Updated configuration</notes>
+    <authors><author><name>PostPal</name><user>PostPal</user><email>hello@postpal.ee</email></author></authors>
+    <date>2016-01-25</date>
+    <time>00:12:53</time>
+    <contents><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="postpal"><dir name="css"><file name="postpal.css" hash="5b3f0d0cce5377aa5bf6978865d0061b"/></dir><dir name="img"><file name="postpal_logo.png" hash="fc3f0bbb0d70f229321bcdd31eaa7549"/></dir><dir name="js"><file name="opcheckout_postpal.js" hash="411e71bf3de1de55247e753fb965d480"/></dir></dir></dir></dir></dir></target><target name="magecommunity"><dir name="PostPal"><dir name="Shipping"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><dir name="Shipment"><file name="View.php" hash="edc39b75e3b0e69ae5dc122c4078ac7a"/></dir></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="9dfca5f43c00ccab5f1f5b8ac5445c8e"/></dir><dir name="Model"><file name="Api.php" hash="fd8bd87f5798e5da81a1d5dcdf58f020"/><file name="Carrier.php" hash="a43d83337249881840599a131f47ae3d"/><file name="Observer.php" hash="1e61ca4d0cb36d73137d4110ad4070b6"/><file name="Shipping.php" hash="5f3ceaa12a412f8c9bcf50551292dcf7"/></dir><dir name="etc"><file name="config.xml" hash="c72f3b23c5e5989731c39c0620802a73"/><file name="system.xml" hash="ed221153d603cfa5f3bfaae51d5ab896"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="postpal"><file name="shipping.xml" hash="c078788b7f0659b061ea7c70bd2b4a70"/></dir></dir><dir name="template"><dir name="postpal"><file name="extras.phtml" hash="8bad02b894d8fc8da8dbd5729dfceff1"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="PostPal_Shipping.xml" hash="8336b32b2ec54a8ebf90029265ab5729"/></dir></target><target name="magelocale"><dir><dir name="en_US"><file name="PostPal_Shipping.csv" hash="50052dc9f9a55bc8a4ff56ce43606eff"/></dir><dir name="et_EE"><file name="PostPal_Shipping.csv" hash="d9d64841396d1a0fb705246409ea7933"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php><extension><name>json</name><min/><max/></extension></required></dependencies>
+</package>

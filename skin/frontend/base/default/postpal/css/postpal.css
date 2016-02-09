@@ -1,0 +1,20 @@
+label[for=s_method_postpal_shipping_fixed]:before {
+    content: url('../img/postpal_logo.png');
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
+
+.postpal_error_wrapper {
+	position: relative;
+	padding: 5px;
+	margin: 5px;
+	border: 1px solid red;
+}
+
+.postpal_error_close {
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 4px;
+}
