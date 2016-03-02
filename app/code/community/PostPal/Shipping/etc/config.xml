@@ -2,7 +2,7 @@
 <config>
     <modules>
         <PostPal_Shipping>
-            <module>0.0.1</module>
+            <version>1.0.0</version>
         </PostPal_Shipping>
     </modules>
     <frontend>
@@ -24,6 +24,26 @@
         </layout>
     </frontend>
     <global>
+        <resources>
+            <postpal_shipping_setup>
+                <setup>
+                    <module>PostPal_Shipping</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </postpal_shipping_setup>
+            <postpal_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </postpal_write>
+            <postpal_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </postpal_read>
+        </resources>
         <models>
             <postpal_shipping>
                 <class>PostPal_Shipping_Model</class>
